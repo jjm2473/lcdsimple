@@ -211,7 +211,7 @@ void lv_ui_entry(void)
     //disp_ver = LV_VER_RES;
     lv_font_init();
     home_scr_create();
-    info_scr_create();
+    //info_scr_create();
     top_layer_create();
     bootlogo_init();    // 开机logo -> 1s后跳转到主界面 bootlogo_del
 

@@ -17,7 +17,6 @@ include $(LVGL_DIR)/lv_drivers/lv_drivers.mk
 
 CSRCS +=$(LVGL_DIR)/mouse_cursor_icon.c \
 		$(LVGL_DIR)/home_scr.c \
-		$(LVGL_DIR)/info_scr.c \
 		$(LVGL_DIR)/scr_template.c \
 		$(LVGL_DIR)/top_layer.c \
 		$(LVGL_DIR)/ui_common.c \

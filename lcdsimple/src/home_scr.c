@@ -378,8 +378,8 @@ void home_scr_create(void)
     lv_obj_set_style_pad_row(panel2, 2, 0);
     lv_obj_set_style_pad_column(panel2, 10, 0);
     lv_obj_set_style_radius(panel2, 0, 0);
-    lv_obj_add_flag(panel2, LV_OBJ_FLAG_CLICKABLE);
-    lv_obj_add_event_cb(panel2, click_load_scr_event_cb, LV_EVENT_CLICKED, &info_sid);
+    // lv_obj_add_flag(panel2, LV_OBJ_FLAG_CLICKABLE);
+    // lv_obj_add_event_cb(panel2, click_load_scr_event_cb, LV_EVENT_CLICKED, &info_sid);
     lv_obj_set_grid_cell(panel1, LV_GRID_ALIGN_CENTER, 0, 1, LV_GRID_ALIGN_CENTER, 0, 1);
     lv_obj_set_grid_cell(panel2, LV_GRID_ALIGN_CENTER, 1, 1, LV_GRID_ALIGN_CENTER, 0, 1);
 
