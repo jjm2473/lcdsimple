@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lcdsimple
-PKG_VERSION:=1.0
+PKG_VERSION:=1.0.0
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -18,11 +18,6 @@ endef
 
 define Package/$(PKG_NAME)/description
 	Simple monitor screen
-endef
-
-define Build/Prepare
-	mkdir -p $(PKG_BUILD_DIR)
-	$(CP) ./src/* $(PKG_BUILD_DIR)/
 endef
 
 MAKE_FLAGS += \
